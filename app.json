@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "proj01",
+    "slug": "proj01",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.anonymous.proj01",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Allow proj01 to use your location to show local weather and radar."
+        }
+      ]
+    ]
+  }
+}
